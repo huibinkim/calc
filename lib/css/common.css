@@ -1,0 +1,36 @@
+.wrapper { width:100vw; height:100vh; }
+.container { min-width:100vw; min-height:100vh; display:grid; place-items:center; padding:20px; text-align:center; }
+.container .content { width:100%; display:flex; flex-direction:column; gap:20px; align-items:center; }
+
+/* loading-box */
+.container .loading-box { width:300px; height:300px; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:20px; border-radius:10px; background:#FBFBFB; box-shadow: 16px 16px 34px 6px rgba(0, 0, 0, 0.25);}
+.container .loading-box img { width:150px; height:150px; vertical-align:middle; } 
+.container .loading-box p { font-size:24px; }
+
+/* main page */
+.container.main { background:url(../../images/main/mainbg01.jpeg); background-size:cover; }
+.container .mainImg { width: 230px; height:230px; }
+
+/* sub1 page */
+.container .content.inputTxt > .dayInput{ margin-top:20px; }
+.container .dayInput { display:flex; gap:10px; justify-content:center; width:calc(100% - 200px); }
+
+/* button */
+.container .flexBtn { display:flex; flex-direction:column; gap:20px; align-items:center;  } 
+.flexBtn button { width:160px; height:50px; border-radius:5px; }
+.flexBtn button:first-child { background-color:#E9E9E9; font-size:16px; font-weight:600; }
+.flexBtn button:last-child { background-color:#CFCFCF; font-size:16px; font-weight:600; }
+
+/* input */
+.dayInput form { display:flex; align-items:center; gap:10px; width:15%; }
+.dayInput form input{ height:40px; }
+.dayInput button { width:60px; background:#000; color:#fff; font-weight:600; }
+
+/* sub2 page */
+.container .content.dayCalcResult { padding:50px 0; background:#DCE6FF; }
+.container .mainImg.end { width:150px; height:150px; } 
+.container .mainImg.end img{ width:150px; height:150px; }
+.container .resultInput { display:flex; flex-direction:column; justify-content:center; width:420px; height:220px; text-align:center; background:#fff; border:1px solid #000; }
+.container .resultInput p { font-size:18px; }
+
+
