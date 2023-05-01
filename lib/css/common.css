@@ -13,7 +13,7 @@
 
 /* sub1 page */
 .container .content.inputTxt > .dayInput{ margin-top:20px; }
-.container .dayInput { display:flex; gap:10px; justify-content:center; width:calc(100% - 200px); }
+.container .dayInput { display:flex; gap:10px; justify-content:center; width:calc(100% - 30%); }
 
 /* button */
 .container .flexBtn { display:flex; flex-direction:column; gap:20px; align-items:center;  } 
@@ -22,9 +22,11 @@
 .flexBtn button:last-child { background-color:#CFCFCF; font-size:16px; font-weight:600; }
 
 /* input */
-.dayInput form { display:flex; align-items:center; gap:10px; width:15%; }
-.dayInput form input{ height:40px; }
-.dayInput button { width:60px; background:#000; color:#fff; font-weight:600; }
+/* .dayInput { display:flex; align-items:center; gap:10px; width:15%; } */
+.dayInput select { height:40px; text-align:center; }
+/* .dayInput select option {  } */
+.dayInput button { width:100%; background:#000; color:#fff; font-weight:600; }
+
 
 /* sub2 page */
 .container .content.dayCalcResult { padding:50px 0; background:#DCE6FF; }
