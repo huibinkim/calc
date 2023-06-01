@@ -39,8 +39,11 @@
     </div>
 
     <script>
-      const receivedData = location.href.split("?")[1];
-      console.log(receivedData);
+      const { year, month, day, dday, hour, min, sec } = JSON.parse(
+        localStorage.getItem("resultData")
+      );
+      // localStorage.remove("resultData");
+      console.log(year, month, day, dday, hour, min, sec);
     </script>
   </body>
 </html>
