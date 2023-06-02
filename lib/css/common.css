@@ -108,14 +108,16 @@
   height: 40px;
   position: absolute;
   top: 0;
-  right: 20px;
+  right: 18px;
 }
 .container .gnb .icon {
   width: 40px;
 }
-
+.gnb .icon:hover {
+  cursor: pointer;
+}
 .container .content.dayCalcResult {
-  padding: 50px 0;
+  padding: 100px 0;
   background: #dce6ff;
 }
 .container .mainImg.end {
