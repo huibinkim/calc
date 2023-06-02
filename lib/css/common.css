@@ -103,6 +103,17 @@
 }
 
 /* sub2 page */
+.container .gnb {
+  width: 100vw;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.container .gnb .icon {
+  width: 30px;
+}
+
 .container .content.dayCalcResult {
   padding: 50px 0;
   background: #dce6ff;
@@ -111,10 +122,7 @@
   width: 150px;
   height: 150px;
 }
-.container .mainImg.end img {
-  width: 150px;
-  height: 150px;
-}
+
 .container .resultInput {
   display: flex;
   flex-direction: column;
