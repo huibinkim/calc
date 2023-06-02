@@ -21,7 +21,8 @@
 
       <div class="container">
         <div class="content dayCalcResult">
-          <h1>"2000년 12월 25일" 까지 <br />디데이 계산 완료</h1>
+          <h1></h1>
+          <h2>디데이 계산 완료</h2>
           <div class="mainImg end">
             <img
               src="../images/main/AdobeStock_227348550.svg"
@@ -30,20 +31,14 @@
           </div>
 
           <div class="resultInput">
-            <p>1년 8개월 10일</p>
-            <p>245일</p>
+            <p id="dayValue"></p>
+            <p id="timeValue"></p>
             <p>남았습니다.</p>
           </div>
         </div>
       </div>
     </div>
 
-    <script>
-      const { year, month, day, dday, hour, min, sec } = JSON.parse(
-        localStorage.getItem("resultData")
-      );
-      // localStorage.remove("resultData");
-      console.log(year, month, day, dday, hour, min, sec);
-    </script>
+    <script src="../lib/js/result.js"></script>
   </body>
 </html>
