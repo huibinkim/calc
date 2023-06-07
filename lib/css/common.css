@@ -42,7 +42,7 @@
 
 /* main page */
 .container.main {
-  background: url(../../images/main/mainBg02.jpeg);
+  background: url(../../images/main/mainBg_03.jpeg);
   background-size: contain;
 }
 .container .mainImg {
@@ -51,6 +51,13 @@
 }
 
 /* sub1 page */
+.container.sub {
+  background-color: #fcfdee;
+}
+.container .subImg {
+  width: 200px;
+  height: auto;
+}
 .container .content.inputTxt > .dayInput {
   margin-top: 20px;
 }
@@ -118,7 +125,7 @@
 }
 .container .content.dayCalcResult {
   padding: 120px 0;
-  background: #dce6ff;
+  background: #ece1fc;
   font-size: 24px;
 }
 .container .mainImg.end {
