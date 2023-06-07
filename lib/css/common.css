@@ -14,7 +14,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 12px;
   align-items: center;
 }
 
@@ -117,8 +117,9 @@
   cursor: pointer;
 }
 .container .content.dayCalcResult {
-  padding: 100px 0;
+  padding: 120px 0;
   background: #dce6ff;
+  font-size: 24px;
 }
 .container .mainImg.end {
   width: 150px;
@@ -136,5 +137,9 @@
   border: 1px solid #000;
 }
 .container .resultInput p {
-  font-size: 18px;
+  font-size: 20px;
+}
+.container .resultInput p:nth-child(1) {
+  font-weight: bold;
+  padding-bottom: 5px;
 }
