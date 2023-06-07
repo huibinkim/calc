@@ -42,8 +42,8 @@
 
 /* main page */
 .container.main {
-  background: url(../../images/main/mainbg01.jpeg);
-  background-size: cover;
+  background: url(../../images/main/mainBg02.jpeg);
+  background-size: contain;
 }
 .container .mainImg {
   width: 300px;
