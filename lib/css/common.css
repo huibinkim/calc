@@ -46,8 +46,8 @@
   background-size: cover;
 }
 .container .mainImg {
-  width: 230px;
-  height: 230px;
+  width: 300px;
+  height: auto;
 }
 
 /* sub1 page */
