@@ -19,6 +19,17 @@
 }
 
 /* loading-box */
+.container .loading-con {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
 .container .loading-box {
   width: 300px;
   height: 300px;
