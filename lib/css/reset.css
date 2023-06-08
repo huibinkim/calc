@@ -431,3 +431,9 @@ textarea {
 .w100 {
   width: 100% !important;
 }
+.visible {
+  visibility: visible;
+}
+.hidden {
+  visibility: hidden;
+}
