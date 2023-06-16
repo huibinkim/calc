@@ -29,8 +29,8 @@
   background-color: #fff;
 }
 .container .loading-box {
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 280px;
   position: absolute;
   top: calc(50% - 150px);
   left: calc(50% - 150px);
@@ -41,17 +41,31 @@
   padding: 20px;
   border-radius: 10px;
   background: #fbfbfb;
-  box-shadow: 16px 16px 34px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 6px 6px 6px 2px rgba(179, 178, 178, 0.25);
 }
 .container .loading-box img {
-  width: 150px;
-  height: 150px;
+  width: 124px;
   vertical-align: middle;
+  margin-bottom: 20px;
 }
 .container .loading-box p {
-  font-size: 24px;
+  display: inline-block;
+  animation-name: cursor;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  font-size: 20px;
 }
-
+@keyframes cursor {
+  0% {
+    border-right: 1px solid #fff;
+  }
+  50% {
+    border-right: 1px solid #000;
+  }
+  100% {
+    border-right: 1px solid #fff;
+  }
+}
 /* main page */
 .container.main {
   background: url(../../images/main/mainBg_03.jpeg);
